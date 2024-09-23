@@ -5,19 +5,22 @@ html {
 	color: #262b2a;
 }
 .site-header {
-	background-image: url(../../uploads/2024/09/s-l1600-4.jpg);
+	/*background-image: url(../../uploads/2024/09/s-l1600-4.jpg);*/
+	background-image: url(../../uploads/2024/09/sc-header-dg-opt.jpg);
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-position: 50% 30%;
 }
-.site{
-	background-image: url(../../uploads/2024/09/grass-bg.jpg);
+.site {
+	background-image: url(../../uploads/2024/09/sc-body-bg.jpg);
+	/*background-image: url(../../uploads/2024/09/grass-bg.jpg);*/
+	background-position: 10% 0%;
 }
-.site-title p{
+.site-title p {
 	font-weight: bold;
     font-size: 80px;
 	font-family: 'Kolker Brush';
-}
-body.page-template {
-	background-color: white;
-	background: rgba(0, 0, 0, 0.4) !important;
+	margin-bottom: 0px;
 }
 section.boutique-primary-navigation {
 	background: rgba(0, 0, 0, 0.4) !important;
@@ -44,4 +47,7 @@ section.boutique-primary-navigation {
 	background-color: #3ea456;
 	background: none;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.site-info a[title~="WooCommerce"] {
+	display: none;
 }
