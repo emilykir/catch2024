@@ -6,6 +6,7 @@ function category_buttons(){
         <a href="#sc-one" class="sc-btn-1">1" Mesh</a>
         <a href="#sc-one-half" class="sc-btn-1">1/2" Mesh</a>
         <a href="#sc-three-eighths" class="sc-btn-1">3/8" Mesh</a>
+        <a href="#sc-easyspread" class="sc-btn-1">Easy Spread</a>
     </div>
     <?php 
     return ob_get_clean();
